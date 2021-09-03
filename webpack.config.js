@@ -22,7 +22,7 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, 'build'),
+    // path: path.resolve(__dirname, 'build'),
     publicPath: 'http://localhost:3000/'
   },
 
@@ -94,6 +94,7 @@ module.exports = {
       remotes: {
         app1: 'app1@http://localhost:3001/remoteEntry.js'
       },
+      exposes: { './Hello': './src/Hello' },
       shared: {
         ...deps,
         react: {

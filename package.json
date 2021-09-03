@@ -5,6 +5,7 @@
   "dependencies": {
     "@aws-amplify/auth": "^4.2.1",
     "@aws-amplify/ui-react": "^1.2.9",
+    "@loadable/component": "^5.15.0",
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
@@ -32,6 +33,7 @@
     "@types/chai": "^4.2.21",
     "@types/customize-cra": "^1.0.2",
     "@types/jest": "^27.0.1",
+    "@types/loadable__component": "^5.13.4",
     "@types/mocha": "^9.0.0",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.9",

@@ -1,8 +1,12 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from 'react';
 
+import { lazy } from '@loadable/component';
+
 //@ts-ignore
-const Header = React.lazy(() => import('app1/Header'));
+const Header = lazy(() => import('app1/Header'));
+
+console.log(Header);
 
 const App: React.FC = () => {
   return (
